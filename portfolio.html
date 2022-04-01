@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка №4-Портфолио</title>  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel= "stylesheet" href = "./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+</head>
+<body>
+      <!-- Шапка -->
+       
+       
+      <div class = "container"> 
+        <header class = "header">
+            <div class = "menu">        
+                <a href = "" class="menu__link__webstydio menu__link__webstydio--web">Web<span class = "menu__span__stydio span--stydio">Studio</span></a>
+                <!-- Навигация -->
+                <ul class = "nav">
+                    <li class = "nav__item"><a href = "./index.html" class="nav__link">Студия</a></li>
+                    <li class = "nav__item"><a href = "./portfolio.html" class="nav__link portfolio">Портфолио</a></li>
+                    <li class = "nav__item"><a href = "" class="nav__link">Контакты</a></li>
+                </ul>
+                </nav>
+                <ul class = "contact">
+                    <li class = "contact__item ">
+                        <div class  = "contact__div">
+                        <a href = "malto:info@devstudio.com" class="nav__link nav__link__email">
+                            <span class = "contact__email">info@devstudio.com</span>
+                            <svg class = "contact__icone--email nav__link" width = "16" height = "12">
+                                <use href = "./images/sprite1.svg#envelope"></use>
+                            </svg>
+                        </a>
+                        </div>
+                    </li>
+                    <li class = "contact__item ">
+                        <div class  = "contact__div">
+                        <a href = "tel:+380961111111" class="nav__link nav__link__email">
+                            <span class = "contact__email">+38 096 111 11 11</span>
+
+                            <svg class = "contact__icone--email nav__link" width = "10" height = "16">
+                                <use href = "./images/smartphone1.svg#smartphone-1"></use>
+                            </svg>
+                        </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>           
+        </header>
+        </div>
+        <div class = "body"></div>
+        <!-- <div class = "container"> -->
+    <!--Основной контент-->
+    <main>
+        <!--Фильтры-->
+        <!-- <div class = "filter__card__portfolio"> -->
+            <div class = "container">
+                <div class = "btn">
+                    <h2 hidden>Расширенный фильтр</h2>
+                    <ul class = "btn__filter"> 
+                        <li class = "list__filter__item"><button type="button" class = "item__filter padding__btn">Все</button></li>
+                        <li class = "list__filter__item"><button class = "padding__btn" type="button">Веб-сайты</button></li>
+                        <li class = "list__filter__item"><button class = "padding__btn" type="button">Приложения</button></li>
+                        <li class = "list__filter__item"><button class = "padding__btn" type="button">Дизайн</button></li>
+                        <li class = "list__filter__item"><button class = "padding__btn" type="button">Маркетинг</button></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Карточки портфолио-->
+            <section class = "card-filter">
+            <div class = "container">
+            <ul class="list__card">        
+                <li class = "list__card__item">                     
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb">                                                 
+                            <img
+                            srcset="./images/portfolio_mob_1.jpg 1x, 
+                                    ./images/portfolio_mob_1@2x.jpg 2x"
+                             class = "img__center" src = "./images/imgf.jpg" width = "370" height="294" alt = "Веб-сайт">                    
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                             
+                                        </p>                                                                                                                                                                             
+                                    </div>
+                                </div>
+                            </div>                    
+                        <h3 class = "card__item__title">Технокряк</h3>
+                        <p class = "card__item__text">Веб-сайт</p>
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_2.jpg 1x, 
+                                    ./images/portfolio_mob_2@2x.jpg 2x"
+                             src = "./images/img1f.jpg" width = "370" height="294" alt = " Матч двух баскетбольных команд New Orlean vs Golden Star">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title">Постер New Orlean vs Golden Star</h3>
+                        <p class = "card__item__text">Дизайн</p>                    
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_3.jpg 1x, 
+                                    ./images/portfolio_mob_3@2x.jpg 2x"
+                             src = "./images/img2f.jpg" width = "370" height="294" alt = "Логотип Ресторан Seafood">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title">Ресторан Seafood</h3>
+                        <p class = "card__item__text">Приложение</p>
+                    </a>
+                </li>        
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb">
+                            <img
+                            srcset="./images/portfolio_mob_4.jpg 1x, 
+                                    ./images/portfolio_mob_4@2x.jpg 2x"
+                            src = "./images/imgf3.jpg" width = "370" height="294" alt = "Наушеники">
+                            <div class = "thumb-overlay">
+                                <div class = "thumb-text">
+                                    <p class = "text-overlay">
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    <h3 class = "card__item__title">Проект Prime</h3>
+                    <p class = "card__item__text">Маркетинг</p>
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_5.jpg 1x, 
+                                    ./images/portfolio_mob_5@2x.jpg 2x"
+                            src="./images/imgf4.jpg" width = "370" height="294" alt = "Небольшие коробки">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title">Проект Boxes</h3>
+                        <p class = "card__item__text">Приложение</p>
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_6.jpg 1x, 
+                                    ./images/portfolio_mob_6@2x.jpg 2x"
+                            src="./images/imgf5.jpg" width = "370" height="294" alt = "У вдохновения нет границ">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title" lang="en">Inspiration has no Borders</h3>
+                        <p class = "card__item__text">Веб-сайт</p>
+                    </a>
+                </li>        
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb">
+                            <img
+                            srcset="./images/portfolio_mob_7.jpg 1x, 
+                                    ./images/portfolio_mob_7@2x.jpg 2x"
+                            src="./images/imgf6.jpg" width = "370" height="294" alt = "Ограниченное издание">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title">Издание Limited Edition</h3>
+                        <p class = "card__item__text">Дизайн</p>
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_8.jpg 1x, 
+                                    ./images/portfolio_mob_8@2x.jpg 2x"
+                            src="./images/imgf7.jpg" width = "370" height="294" alt = "Проект LAB">
+                                <div class = "thumb-overlay">
+                                    <div class = "thumb-text">
+                                        <p class = "text-overlay">
+                                            Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <h3 class = "card__item__title">Проект LAB</h3>
+                        <p class = "card__item__text">Маркетинг</p>
+                    </a>
+                </li>
+                <li class = "list__card__item">                    
+                    <a class = "card__item__link" href = "">
+                        <div class = "thumb"> 
+                            <img
+                            srcset="./images/portfolio_mob_9.jpg 1x, 
+                                    ./images/portfolio_mob_9@2x.jpg 2x"
+                            src="./images/imgf8.jpg" width = "370" height="294" alt = "Разработка бизнес приложения на ноутбуке">
+                            <div class = "thumb-overlay">
+                                <div class = "thumb-text">
+                                    <p class = "text-overlay">
+                                        Ця сторінка сайту версталася під час навчання в компанії GOIT мною Микола Лютенко та нашого вчителя
+                                            ментора Ю. Кононенко
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class = "card__item__title" lang="en">Growing Business</h3>
+                        <p class = "card__item__text">Приложение</p>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <!-- </div> -->
+    
+    <!-- Футер-->
+    <footer class = "footer portfolio">
+        <!--Логотип-->
+        <div class = "container">
+            <div class = "footer__total">
+            <div class = "footer__contact">
+                <a href = "" class="menu__link__webstydio menu__link__webstydio--web">Web<span class = "footer__span__stydio span--stydio">Studio</span></a>
+                <address>
+                    <p class = "footer__address">г. Киев, пр-т Леси Украинки, 26</p>
+                    <p class = "footer__text__email"><a href = "mailto:info@example.com" class=" email-footer">info@example.com</a></p>
+                    <p class = "footer__text__tel"><a href = "tel:+380961111111" class="footer__tel">+38 096 111 11 11</a></p>
+                </address>
+            </div>
+        <div class = "footer__social">
+            <h3 class = "footer__text__title">присоединяйтесь</h3>
+            <ul class = "list footer__list__social">
+                <li class = "total__item__icon istagrams">
+                    <a class = "total__link__social card" href = "">
+                        <svg class = "total__icon total__social__network" width = "20" height = "20">
+                            <use href = "./images/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class = "total__item__icon twitter">
+                    <a class = "total__link__social card" href = "">
+                        <svg class = "total__icon total__social__network" width = "20" height = "20">
+                            <use href = "./images/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class = "total__item__icon facebook">
+                    <a class = "total__link__social card" href = "">
+                        <svg class = "total__icon total__social__network" width = "20" height = "20">
+                            <use href = "./images/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class = "total__item__icon linkedin">
+                    <a class = "total__link__social card" href = "">
+                        <svg class = "total__icon total__social__network" width = "20" height = "20">
+                            <use href = "./images/sprite.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class = "form__footer">
+            <h3 class = "form__subscribe">Подпишитесь на рассылку</h3>
+            <form class = "form-mailing">
+                <div class = "form__flex">
+                    <div class = "form__input">
+                        <input class = "input-text" type = "email" name = "emal" id = "emal">
+                        <label class = "label__emal__mailing">E-mail</label>
+                    </div>
+                    <div class = "form__submit">
+                        <button class = "form__btn__submit">
+                            Подписаться
+                            <svg class = "form__icon__send" width = "24" height = "24">
+                                <use href = "./images/icon-send.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </footer>    
+</body>
+</html>

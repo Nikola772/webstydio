@@ -1,0 +1,127 @@
+.command-item {
+  width: 100%;
+  max-width: 1600px;
+  background-color: $bgFonColor;     
+ }
+
+.our-command {    
+  padding-top: 94px;     
+         
+ }
+
+ .our-command__title{    
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $titleText;
+  margin-bottom: 50px; 
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    font-size: 28px;
+    line-height: calc(33 / 28);
+  }
+  
+  // @media screen and (min-width: 480px) {
+  //   font-size: 28px;
+  //   line-height: calc(33 / 28);
+  // }
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: calc(33 / 28);
+  }
+}
+
+.command__list {
+  display: flex;
+  list-style: none; 
+  padding: 0;
+  margin: 0; 
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: block;
+  }
+
+  // @media screen and (min-width: 480px) {
+  //   display: block;
+  // }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+     display: flex;
+     flex-wrap: nowrap;
+  }
+}
+
+ 
+
+.command__item {     
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+   
+  border-radius: 0px 0px 4px 4px;
+  background-color: $fonColor;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  // @media screen and (min-width: 480px) {
+  //   display: block;
+  //   margin-bottom: 30px;
+  // }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+     
+     flex-basis: calc(100% / 2 - 30px);
+     margin-left: 30px;
+     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.command__list > .command__item + .command__item {
+  margin-left: 28px;
+  }
+}
+
+.command__username {   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+   
+  letter-spacing: 0.03em;
+  color: $titleText;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.command__profession {   
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);       
+  letter-spacing: 0.03em;
+  color: $textColor;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.command__social {
+  margin-bottom: 30px;
+}
+
+ 

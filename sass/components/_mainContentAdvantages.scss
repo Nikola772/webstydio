@@ -1,0 +1,59 @@
+@media screen and (min-width: 1200px) {
+  .feature {
+    display: block;
+  }
+}
+
+.feature {
+    padding-top: 94px;
+         
+  }
+
+  .list__our-team {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;     
+  }
+
+  .list__our-team > .our-team + .our-team {
+    margin-left: 30px;
+  }
+
+  .picture-title {   
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;  
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $fonColor;
+    padding-top: 27px;
+    padding-right: 82px;
+    padding-bottom: 27px;
+    padding-left: 83px;
+    background-color: $bgColorAd;  
+  }
+
+  .our-team {
+    position: relative;
+  }
+
+   
+
+  .feature-title {   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $titleText;
+    margin-bottom: 50px;
+  } 

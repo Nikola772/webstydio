@@ -1,0 +1,50 @@
+.total__icon__social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    
+  }
+
+  .total__item__icon:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  .total__link__social {
+    display: flex;  
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     width: 44px;
+    height: 44px;
+    background-color: $bgColorSocial;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color:$webstydioLink;
+      }
+   } 
+
+   .total__icon {
+    width: 20px;
+    height: 20px;    
+    fill: $fonColor;   
+ }
+
+   .total__link__social.card:hover {
+
+    .total__icon {
+    background-color: $webstydioLink;
+    fill: $fonColor;
+  }
+}
+
+.total__social__network {
+    fill: $socNetwerk
+  }
+
+  .total__icon.total__social__network:hover {
+    fill: $fonColor;
+  }

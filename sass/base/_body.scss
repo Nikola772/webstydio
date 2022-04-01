@@ -1,0 +1,28 @@
+body {
+  background-color: $fonColor;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.body {
+  border-bottom: 1px solid $borderHeader;
+}
+
+ html,
+ body {
+   overflow-x: hidden;
+ }
